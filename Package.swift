@@ -14,7 +14,7 @@ let package = Package(
     )
   ],
   targets: [
-    .target(name: "ArculusCryptoSwift"),
+    .target(name: "ArculusCryptoSwift", path: "Sources/CryptoSwift"),
     .testTarget(name: "CryptoSwiftTests", dependencies: ["ArculusCryptoSwift"]),
     .testTarget(name: "TestsPerformance", dependencies: ["ArculusCryptoSwift"])
   ],
