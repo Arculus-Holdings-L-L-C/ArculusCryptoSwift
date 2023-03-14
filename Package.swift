@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-  name: "CryptoSwift",
+  name: "ArculusCryptoSwift",
   platforms: [
     .macOS(.v10_12), .iOS(.v9), .tvOS(.v9), .watchOS(.v2)
   ],
   products: [
     .library(
-      name: "CryptoSwift",
-      targets: ["CryptoSwift"]
+      name: "ArculusCryptoSwift",
+      targets: ["ArculusCryptoSwift"]
     )
   ],
   targets: [
-    .target(name: "CryptoSwift"),
-    .testTarget(name: "CryptoSwiftTests", dependencies: ["CryptoSwift"]),
-    .testTarget(name: "TestsPerformance", dependencies: ["CryptoSwift"])
+    .target(name: "ArculusCryptoSwift"),
+    .testTarget(name: "CryptoSwiftTests", dependencies: ["ArculusCryptoSwift"]),
+    .testTarget(name: "TestsPerformance", dependencies: ["ArculusCryptoSwift"])
   ],
   swiftLanguageVersions: [.v5]
 )
