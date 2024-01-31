@@ -9,7 +9,7 @@ let package = Package(
   ],
   products: [
     .library(
-      name: "CryptoSwift",
+      name: "ArculusCryptoSwift",
       targets: ["CryptoSwift"]
     )
   ],
