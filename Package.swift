@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "CryptoSwift",
+  name: "ArculusCryptoSwift",
   platforms: [
     .macOS(.v10_13), .iOS(.v11), .tvOS(.v11), .watchOS(.v4)
   ],
