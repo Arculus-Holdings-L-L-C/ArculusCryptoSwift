@@ -15,8 +15,8 @@ let package = Package(
   ],
   targets: [
     .target(name: "ArculusCryptoSwift", resources: [.copy("PrivacyInfo.xcprivacy")]),
-    .testTarget(name: "CryptoSwiftTests", dependencies: ["ArculuCryptoSwift"]),
-    .testTarget(name: "TestsPerformance", dependencies: ["ArculuCryptoSwift"])
+    .testTarget(name: "CryptoSwiftTests", dependencies: ["ArculusCryptoSwift"]),
+    .testTarget(name: "TestsPerformance", dependencies: ["ArculusCryptoSwift"])
   ],
   swiftLanguageVersions: [.v5]
 )
