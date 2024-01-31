@@ -10,11 +10,11 @@ let package = Package(
   products: [
     .library(
       name: "ArculusCryptoSwift",
-      targets: ["CryptoSwift"]
+      targets: ["ArculusCryptoSwift"]
     )
   ],
   targets: [
-    .target(name: "CryptoSwift", resources: [.copy("PrivacyInfo.xcprivacy")]),
+    .target(name: "ArculusCryptoSwift", resources: [.copy("PrivacyInfo.xcprivacy")]),
     .testTarget(name: "CryptoSwiftTests", dependencies: ["ArculuCryptoSwift"]),
     .testTarget(name: "TestsPerformance", dependencies: ["ArculuCryptoSwift"])
   ],
